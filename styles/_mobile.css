@@ -1,0 +1,25 @@
+@media only screen
+  and (max-width: 30rem)
+{
+
+
+body{background: green;}
+.container  {
+
+  &__inside{
+    // max-width: 60rem;
+    margin: auto;
+  }
+}
+.nav-bar{
+  display: flex;
+  justify-content: space-around;
+  background: #a22ff1;
+  align-items: center;
+
+}
+.logo{
+  width: 15%;
+  img{width: 100%;}
+}
+}
