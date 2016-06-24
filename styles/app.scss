@@ -1,6 +1,41 @@
 // @import 'yoga';
 // @import 'normalize';
-
-// $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
-// @import 'font-awesome';
+$fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
+@import 'font-awesome';
 @import 'box-sizing';
+
+body,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+@media only screen
+  and (max-width: 30rem)
+{
+
+
+
+.container  {
+
+  &__inside{
+    // max-width: 60rem;
+    margin: auto;
+  }
+}
+.nav-bar{
+  display: flex;
+  justify-content: space-around;
+  background: #a22ff1;
+  align-items: center;
+
+}
+.logo{
+  width: 10%;
+  img{width: 100%;}
+}
+}
