@@ -1,58 +1,45 @@
 // @import 'yoga';
 // @import 'normalize';
 $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
+$blue:#29516D;
+$blue-darker: darken($blue, 10%);
+$blue-lighter: lighten($blue,50%);
+$yellow: #AA8D39;
+$gutter: 1rem;
+
+@import 'reset';
 @import 'font-awesome';
 @import 'box-sizing';
 @import 'mobile';
+@import 'nav-desktop';
+@import 'hero';
 
-body,
-p {
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif;
+.container-projects{
+background: $blue-darker;
+  &__inner{
+    background:$blue-darker;
+    color:$blue-lighter;
+    max-width: 60rem;
+    margin: auto;
+.projects{
+  display: flex;
 }
 
-ul {
-  list-style: none;
-}
-@media only screen
-  and (min-width: 30rem)
-{
-
-    body{
-      background: red;
-    }
-    .container  { background: yellow;
-
-      &__inside{
-         max-width: 60rem;
-        margin: auto;
-      }
-    }
-    .nav-bar{
-      display: flex;
-      justify-content: space-between;
-      background: #a22ff1;
-      align-items: center;
-      align-content: stretch;
-
-      &__item{
-        padding: 1.3rem;
-        // border: blue 3px solid;
-        // flex-shrink: 1;
-
-
-      }
-
-    }
-
-    .logo{
-      width: 10rem;
-      display: inline-block;
-
-      img{width: 100%;
-      margin: -2.5rem;}
-    }
+  .project-one{
+flex-direction: wrap;
 
 
   }
+  .project-two{
+    flex-direction: row-reverse;
+
+  }
+  .project-three{
+    @extend .project-one;
+  }
+
+  .project-four{
+    @extend .project-two;
+  }
+  }
+}

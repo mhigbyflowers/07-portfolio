@@ -1,0 +1,42 @@
+@media only screen
+  and (min-width: 30rem)
+{
+
+    body{
+      background: $yellow;
+    }
+    .container  { background: $blue;
+
+      &__inside-nav{
+         max-width: 60rem;
+        margin: auto;
+      }
+    }
+    .nav-bar{
+      color:$blue-lighter;
+      display: flex;
+      justify-content: space-around;
+      background: $blue;
+      align-items: center;
+      align-content: center;
+
+      &__item{
+        padding: 1.3rem;
+
+        p{font-size: 1.5rem;}
+
+
+      }
+
+    }
+
+    .logo{
+      width: 10rem;
+      display: inline-block;
+
+      img{width: 100%;
+      margin: -2.5rem;}
+    }
+
+
+  }
