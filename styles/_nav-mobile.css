@@ -3,23 +3,36 @@
 {
 
 
-body{background: green;}
+
 .container  {
 
   &__inside{
-    // max-width: 60rem;
+
     margin: auto;
   }
 }
 .nav-bar{
   display: flex;
+  flex-direction: column;
   justify-content: space-around;
-  background: #a22ff1;
+  background: $blue;
   align-items: center;
+
+  &__item{
+    p{
+      font-size: 2rem;
+      color:$blue-lighter;
+
+
+    }
+  }
 
 }
 .logo{
-  width: 15%;
+  width: 50%;
   img{width: 100%;}
+}
+.name{
+  min-width: 25em;
 }
 }

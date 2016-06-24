@@ -1,0 +1,31 @@
+@media only screen and (max-width: 30rem) {
+  .project-one {
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .project-two {
+    flex-wrap: wrap;
+  }
+
+  .project-three {
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .project-four {
+    // flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .projects {
+    &-img {
+      background: green;
+      width: 100%;
+      // width: calc(100% / 3);
+      img {
+        width: 100%;
+      }
+    }
+  }
+}

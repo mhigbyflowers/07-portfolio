@@ -1,0 +1,50 @@
+.container-projects {
+  background: $blue-darker;
+
+  &__inner {
+    background: $blue-darker;
+    color: $blue-lighter;
+    max-width: 60rem;
+    margin: auto;
+
+    .projects {
+      display: flex;
+      padding: $gutter;
+      &__info{
+        padding:$gutter;
+
+        h1{
+          color:$yellow;
+        }
+      }
+    }
+
+    .project-one {
+      flex-direction: row;
+      // flex-wrap: wrap;
+    }
+
+    .project-two {
+      flex-direction: row-reverse;
+        // flex-wrap: wrap;
+    }
+
+    .project-three {
+      flex-direction: row;
+        // flex-wrap: wrap;
+    }
+
+    .project-four {
+    flex-direction: row-reverse;
+      // flex-wrap: wrap;
+    }
+    .projects{
+
+    &-img{background: green;
+      // width: calc(100% / 3);
+
+
+  }
+}
+  }
+}

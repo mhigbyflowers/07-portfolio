@@ -1,45 +1,16 @@
 // @import 'yoga';
 // @import 'normalize';
 $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
-$blue:#29516D;
+$blue: #29516D;
 $blue-darker: darken($blue, 10%);
 $blue-lighter: lighten($blue,50%);
-$yellow: #AA8D39;
+$yellow: red;
 $gutter: 1rem;
-
 @import 'reset';
 @import 'font-awesome';
 @import 'box-sizing';
-@import 'mobile';
 @import 'nav-desktop';
-@import 'hero';
-
-.container-projects{
-background: $blue-darker;
-  &__inner{
-    background:$blue-darker;
-    color:$blue-lighter;
-    max-width: 60rem;
-    margin: auto;
-.projects{
-  display: flex;
-}
-
-  .project-one{
-flex-direction: wrap;
-
-
-  }
-  .project-two{
-    flex-direction: row-reverse;
-
-  }
-  .project-three{
-    @extend .project-one;
-  }
-
-  .project-four{
-    @extend .project-two;
-  }
-  }
-}
+@import 'projects-desktop';
+@import 'hero-desktop';
+@import 'nav-mobile';
+@import 'projects-mobile'
