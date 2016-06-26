@@ -2,17 +2,19 @@
   and (min-width: 30rem)
 {
 
-    body{
-      background: $yellow;
-    }
-    .container  { background:red;
+
+    .container  { background:$blue;
+
 
       &__inside-nav{
          max-width: 60rem;
         margin: auto;
+
+
       }
     }
     .nav-bar{
+
       color:$blue-lighter;
       display: flex;
       justify-content: space-between;
@@ -36,7 +38,14 @@
 
       img{width: 100%;
         min-width: 8rem;
-      margin: -2.5rem;}
+      // margin: -2.5rem;
+  filter:blur(.3rem) contrast(500%);
+  transition: all .4s linear;
+      &:hover{
+        filter:blur(0rem) ;
+
+        transition: all 1s linear;
+           }}
     }
 
 

@@ -1,6 +1,7 @@
 .container-projects {
   background: $blue-darker;
 
+
   &__inner {
     background: $blue-darker;
     color: $blue-lighter;
@@ -39,12 +40,21 @@
       // flex-wrap: wrap;
     }
     .projects{
-
+border-bottom:red dashed .01rem;
     &-img{background: green;
-      // width: calc(100% / 3);
+
 
 
   }
 }
   }
+}
+
+
+
+.projects:nth-child(even){
+  border-left: red .01rem dashed;
+}
+.projects:nth-child(odd){
+  border-right: red .01rem dashed;
 }
