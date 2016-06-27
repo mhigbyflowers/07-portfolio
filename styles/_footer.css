@@ -1,0 +1,22 @@
+.container-bottom{
+  background: $secondary;
+  color:white;
+  &__inner{
+
+    max-width: 30rem;
+    margin: auto;
+  }
+}
+
+.bottom-bar{
+  padding: $gutter;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 3rem;
+
+  &__logo{
+    width:3rem;
+  }
+
+}

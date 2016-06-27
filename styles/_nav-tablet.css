@@ -1,0 +1,19 @@
+@media only screen and (min-width: 500px) and (max-width: 1000px) {
+
+.nav-bar{
+
+  padding:$gutter;
+
+&__item{
+
+  p{
+  font-size: 1rem;
+  text-align: center;
+}
+}
+}
+.logo{
+  width: 3rem;
+}
+
+}

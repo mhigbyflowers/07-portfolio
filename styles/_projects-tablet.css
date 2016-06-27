@@ -1,19 +1,19 @@
-@media only screen and (min-width : 500px) and (max-width : 1000px)
-{
-
-
-.projects{
-align-items: stretch;
-justify-content: center;
-  // flex-wrap: wrap;
-}
-  .projects__info{
-min-width: 25rem;
+@media only screen and (min-width: 500px) and (max-width: 1000px) {
+  .projects {
+    align-items: stretch;
+    justify-content: center;
+    // flex-wrap: wrap;
+  }
+  .projects__info {
+    min-width: 250px;
+    font-size: .8rem;
 
   }
-  .projects__img{
-    min-width: 25rem;
-
-img{width: 100%;}
+  .projects__img {
+    min-width: 250px;
+    padding: $gutter ;
+    img {
+      width: 100%;
+    }
   }
 }

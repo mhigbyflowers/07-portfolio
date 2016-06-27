@@ -1,49 +1,40 @@
-@media only screen and (min-width: 30rem) {
+@media only screen and (min-width: 40rem) {
   .container {
     background: $secondary;
 
 
     &__inside-nav {
-      max-width: 60rem;
+      max-width: 30rem;
       margin: auto;
     }
   }
 
   .nav-bar {
+    padding: 0 $gutter;
     color: white;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     background: $secondary;
     align-items: center;
     align-content: center;
 
     &__item {
-      padding: 1.3rem;
+      padding: .4rem;
 
       p {
-        font-size: 1.5rem;
+
+        font-size: 1rem;
       }
     }
   }
 
   .logo {
     order: 1;
-    width: 10rem;
-    display: inline-block;
+    width:3rem;
 
-    img {
-      width: 100%;
-      min-width: 8rem;
+    // display: inline-block;
 
-      // margin: -2.5rem;
-      // filter:blur(.3rem) contrast(500%);
-      // transition: all 0.4s linear;
 
-      &:hover {
-        // filter:blur(0rem);
-        // transition: all 1s linear;
-      }
-    }
   }
 }
 .name{
