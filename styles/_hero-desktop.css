@@ -1,6 +1,6 @@
 
 .container-hero{
-background: $blue-lighter;
+background: $primary;
 
   &__inner{
     max-width: 60rem;
@@ -8,13 +8,13 @@ background: $blue-lighter;
   }
 
   .hero{
-    color:$blue-darker;
+
     text-align: center;
-    background: $blue-lighter;
-    padding:$gutter *3;
+    background: primary;
+    padding:$gutter *5;
 
     h2{
-
+      color:white;
       font-size: 1rem;
     }
   }

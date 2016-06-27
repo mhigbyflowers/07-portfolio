@@ -1,52 +1,57 @@
-@media only screen
-  and (min-width: 30rem)
-{
+@media only screen and (min-width: 30rem) {
+  .container {
+    background: $secondary;
 
 
-    .container  { background:$blue;
-
-
-      &__inside-nav{
-         max-width: 60rem;
-        margin: auto;
-
-
-      }
+    &__inside-nav {
+      max-width: 60rem;
+      margin: auto;
     }
-    .nav-bar{
-
-      color:$blue-lighter;
-      display: flex;
-      justify-content: space-between;
-      background: $blue;
-      align-items: center;
-      align-content: center;
-
-      &__item{
-        padding: 1.3rem;
-
-        p{font-size: 1.5rem;}
-
-
-      }
-
-    }
-
-    .logo{
-      width: 10rem;
-      display: inline-block;
-
-      img{width: 100%;
-        min-width: 8rem;
-      // margin: -2.5rem;
-  filter:blur(.3rem) contrast(500%);
-  transition: all .4s linear;
-      &:hover{
-        filter:blur(0rem) ;
-
-        transition: all 1s linear;
-           }}
-    }
-
-
   }
+
+  .nav-bar {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    background: $secondary;
+    align-items: center;
+    align-content: center;
+
+    &__item {
+      padding: 1.3rem;
+
+      p {
+        font-size: 1.5rem;
+      }
+    }
+  }
+
+  .logo {
+    order: 1;
+    width: 10rem;
+    display: inline-block;
+
+    img {
+      width: 100%;
+      min-width: 8rem;
+
+      // margin: -2.5rem;
+      // filter:blur(.3rem) contrast(500%);
+      // transition: all 0.4s linear;
+
+      &:hover {
+        // filter:blur(0rem);
+        // transition: all 1s linear;
+      }
+    }
+  }
+}
+.name{
+  order: 2;
+}
+.skills{
+  order: 3;
+}
+.city{
+  order:4
+}

@@ -1,5 +1,5 @@
 @media only screen
-  and (max-width: 30rem)
+  and (max-width: 500px)
 {
 
 
@@ -11,28 +11,51 @@
     margin: auto;
   }
 }
-.nav-bar{
+.nav-bar {
+  color: white;
   display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  background: $blue;
+
+  background: $secondary;
   align-items: center;
+  align-content: center;
 
-  &__item{
-    p{
-      font-size: 2rem;
-      color:$blue-lighter;
+  &__item {
+    padding: $gutter;
 
-
+    p {
+      font-size: 1rem;
     }
   }
-
 }
-.logo{
-  width: 50%;
-  img{width: 100%;}
+
+.logo {
+  order: 1;
+  width: 30%;
+  // display: inline-block;
+
+  img {
+    width: 50%;
+    min-width: 4rem;
+
+
+    // margin: -2.5rem;
+    // filter:blur(.3rem) contrast(500%);
+    // transition: all 0.4s linear;
+
+    &:hover {
+      // filter:blur(0rem);
+      // transition: all 1s linear;
+    }
+  }
+}
 }
 .name{
-  min-width: 25em;
+order: 2;
 }
+.skills{
+order: 3;
+}
+.city{
+order:4
+
 }

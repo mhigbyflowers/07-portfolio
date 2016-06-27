@@ -1,0 +1,46 @@
+
+.gallery{
+  // background:red;
+
+  &__container{
+    &-inner{
+      max-width: 60rem;
+}
+.gallery__row{
+  background: green;
+  padding:$gutter;
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+
+
+  &-item{
+   height: 20rem;
+   background: #666;
+   /*display: flex;*/
+
+   overflow: hidden;
+    img{
+
+      /*height:100%;*/
+      width: 100%;
+      height: 100%;
+      position:relative;
+
+
+    }
+  }
+  .hamburger{
+    width: calc(100% / 10 * 7);
+  }
+  .hotdog{
+    width: calc(100% / 10 * 3 - 1rem);
+  }
+
+}
+
+
+}
+
+  }

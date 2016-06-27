@@ -1,10 +1,10 @@
 .container-projects {
-  background: $blue-darker;
+
 
 
   &__inner {
-    background: $blue-darker;
-    color: $blue-lighter;
+padding: $gutter;
+
     max-width: 60rem;
     margin: auto;
 
@@ -12,10 +12,11 @@
       display: flex;
       padding: $gutter;
       &__info{
-        padding:$gutter;
+         padding: 0 $gutter;
 
         h1{
-          color:$yellow;
+
+
         }
       }
     }
@@ -40,21 +41,13 @@
       // flex-wrap: wrap;
     }
     .projects{
-border-bottom:red dashed .01rem;
-    &-img{background: green;
+
+
+    &-img{
 
 
 
   }
 }
   }
-}
-
-
-
-.projects:nth-child(even){
-  border-left: red .01rem dashed;
-}
-.projects:nth-child(odd){
-  border-right: red .01rem dashed;
 }

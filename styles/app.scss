@@ -1,55 +1,18 @@
 // @import 'yoga';
 // @import 'normalize';
 $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
-$blue: #29516D;
-$blue-darker: darken($blue, 10%);
-$blue-lighter: lighten($blue,50%);
-$yellow: red;
+$primary: #41d0e1;
+$secondary: black;
 $gutter: 1rem;
+
 @import 'reset';
 @import 'font-awesome';
 @import 'box-sizing';
+@import 'nav-mobile';
 @import 'nav-desktop';
 @import 'projects-desktop';
 @import 'hero-desktop';
-@import 'nav-mobile';
 @import 'projects-mobile';
-
-.gallery{
-  // background:red;
-
-  &__container{
-    &-inner{
-      max-width: 60rem;
-}
-.gallery__row{
-  background: green;
-  padding:$gutter;
-  display: flex;
-  justify-content:space-between;
-  align-items: center;
-
-
-  &-item{
-   height: 20rem;
-   background: #666;
-   overflow: hidden;
-    img{
-
-      // height:100%;
-      width: 100%;
-    }
-  }
-  .hamburger{
-    width: calc(100% / 10 * 7);
-  }
-  .hotdog{
-    width: calc(100% / 10 * 3 - 1rem);
-  }
-
-}
-
-
-}
-
-  }
+@import 'projects-tablet';
+@import 'gallery-desktop';
+@import 'gallery-hover';

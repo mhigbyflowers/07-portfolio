@@ -1,4 +1,8 @@
-@media only screen and (max-width: 30rem) {
+@media only screen and (max-width: 500px) {
+
+.projects__info p{
+  padding-bottom: $gutter;
+}
   .project-one {
     flex-direction: column;
     flex-wrap: wrap;
@@ -19,6 +23,7 @@
   }
 
   .projects {
+
     &-img {
       background: green;
       width: 100%;
