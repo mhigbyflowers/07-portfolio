@@ -13,6 +13,11 @@ padding: $gutter;
       padding: $gutter;
       &__info{
          padding: 0 $gutter ;
+          //  width: calc(100% / 10 * 7 - 1rem);
+           h1{
+             padding-bottom: $gutter;
+           }
+
 
 
       }
@@ -41,10 +46,14 @@ padding: $gutter;
 
 
     &-img{
-
-
-
+img{
+width: 100%;
+}
   }
 }
   }
+}
+
+.projects-img{
+  width: calc(100% / 10 * 5 - 1rem);
 }

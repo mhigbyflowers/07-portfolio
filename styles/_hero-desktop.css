@@ -8,7 +8,7 @@ background: $primary;
   }
 
   .hero{
-
+  font-size: 1.4rem;
     text-align: center;
     background: primary;
     padding:$gutter *5;

@@ -3,9 +3,7 @@
 
     &-item{
       position: relative;
-    &:hover img{
 
-    }
     &:hover .gallery__row-item--overlay, &:hover img{
       opacity: 1;
       transition: all .4s;
